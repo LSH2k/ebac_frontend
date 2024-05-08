@@ -25,6 +25,10 @@ header, section h2, section h3, form button {
     font-weight: normal;
 }
 
+h1 img {
+    height: 100px;
+}
+
 body, input, textarea {
     font-family: "Roboto", sans-serif;
 }
@@ -79,6 +83,25 @@ section p {
     margin-bottom: 8px;
 }
 
+section a input {
+    background-color: #182c61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 320px;
+    margin-top: 24px;
+    padding: 8px;
+    height: 50px;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+section a input:hover {
+    background-color: #2a4aa3;
+}
+
 .store-front {
     margin-right: 32px;
 }
@@ -110,6 +133,7 @@ form input, form textarea, form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    border-radius: 5px;
 }
 
 form textarea {
@@ -141,4 +165,9 @@ footer {
     color: #ecf0f1;
     padding: 16px 0;
     text-align: center;
+}
+
+iframe {
+    height: 350px;
+    width: 350px;
 }
