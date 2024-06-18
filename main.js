@@ -21,8 +21,8 @@ form.addEventListener('submit', function(e){
         certo.style.display = 'none'
         document.querySelector('input#btn-enviar').disabled = true
     }else{
-        certo.innerHTML = `Número A: <strong>${numA}</strong> é menor que o Número B: <strong>${num}</strong>!`
-        certo.style.dispplay = 'block'
+        certo.innerHTML = `Número A: <strong>${numA.value}</strong> é menor que o Número B: <strong>${numB.value}</strong>!`
+        certo.style.display = 'block'
         invalido.style.display = 'none'
     }
 })
