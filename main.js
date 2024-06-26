@@ -7,7 +7,7 @@ $(document).ready(function() {
         $('#nome-tarefa').val('')
     })
     
-    $('li').click(function() {
-        $(novoItem).val(`<li style="text-decoration: line-through">${nomeTarefa}</li>`)
+    $('ul').on('click', 'li', function() {
+        $(this).toggleClass('riscar')
     })
 })

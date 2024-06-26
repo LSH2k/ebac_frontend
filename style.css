@@ -54,4 +54,8 @@ li {
     cursor: pointer;
 }
 
+.riscar {
+    text-decoration: line-through;
+}
+
 
