@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --cor0: #e15f41;
+    --cor1: #ffeae6;
+    --font0: "Roboto", sans-serif;
+    --font1: "Pacifico", cursive;
+}
+
+body {
+    font-family: var(--font0);
+}
+
+.navbar {
+    background-color: var(--cor0);
+}
+
+#header .nav .nav-link.active {
+    background-color: white;
+    color: var(--cor0);
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: var(--cor1);
+}
+
+.section-title {
+    font-family: var(--font1);
+}
+
+#sobre, #cardapio {
+    background-color: var(--cor1);
+}
+
+.text-colored {
+    color: var(--cor0);
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: var(--cor0);
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: var(--cor0);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer p {
+    background-color: #e15f41;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
