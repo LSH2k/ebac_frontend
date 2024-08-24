@@ -1,16 +1,16 @@
-function Animais(nome, tipo, habitat) {
+function Animal(nome, tipo, habitat) {
     this.nome = nome
     this.tipo = tipo
     this.habitat = habitat
 }
 
 function Mamifero(nome, tipo, habitat, tipoPelagem) {
-    Animais.call(this, nome, tipo, habitat)
+    Animal.call(this, nome, tipo, habitat)
     this.tipoPelagem = tipoPelagem
 }
 
 function Ave(nome, tipo, habitat, podeVoar) {
-    Animais.call(this, nome, tipo, habitat)
+    Animal.call(this, nome, tipo, habitat)
     this.podeVoar = podeVoar
 }
 
