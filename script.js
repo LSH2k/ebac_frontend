@@ -3,5 +3,5 @@
 const multiplicaNum = (a, b) => a * b;
 console.log(multiplicaNum(30, 50));
 // Função para dizer Olá
-const dizOlá = (nome) => "Olá, " + nome;
-console.log(dizOlá('Pedro'));
+const dizOla = (nome) => "Olá, " + nome;
+console.log(dizOla('Pedro'));

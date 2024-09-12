@@ -1,10 +1,9 @@
 // Função para multiplicar dois números
-const multiplicaNum = (a: number, b: number): number => a * b
+const multiplicaNum = (a: number, b: number): number => a * b;
 
-console.log(multiplicaNum(30, 50))
+console.log(multiplicaNum(30, 50));
 
 // Função para dizer Olá
-const dizOlá = (nome: string): string => "Olá, " + nome
+const dizOla = (nome: string): string => "Olá, " + nome;
 
-console.log(dizOlá('Pedro'))
-
+console.log(dizOla('Pedro'));
