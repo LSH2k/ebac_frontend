@@ -21,6 +21,6 @@ describe('Teste para a home page', () => {
   })
 
   it('Deve remover um contato da lista', () => {
-    cy.get(':nth-child(3) > .sc-gueYoa > .delete').click()
+    cy.get(':nth-child(2) > .sc-gueYoa > .delete').click()
   })
 })
